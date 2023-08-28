@@ -1,0 +1,98 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Montserrat;
+    font-size: 16px; /* Cambia el tamaño de letra */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilos para el encabezado */
+.header {
+    background-image: url('imagenes-contenido/encabezado/computing.png');
+    background-size: cover;
+    color: #fff;
+    text-align: left;
+    padding: 3rem 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px; /* Cambia el tamaño de letra */
+}
+
+.header h2 {
+    font-family: Raleway;
+    margin: 0;
+    font-weight: bold;
+    font-size: 30px; /* Cambia el tamaño de letra */
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 18px; /* Cambia el tamaño de letra */
+}
+/* Estilos para la barra de navegación (puedes añadir estos estilos según necesites) */
+nav {
+    background-color: #555;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end; /* Cambia aquí para alinear a la derecha */
+}
+
+nav li {
+    margin: 0;
+    padding: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Estilos para las secciones */
+section {
+    padding: 2rem;
+    background-color: #fff;
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los encabezados de sección */
+section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Estilos para la lista de habilidades */
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#habilidades li {
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
