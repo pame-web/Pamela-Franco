@@ -9,7 +9,7 @@ body {
 
 /* Estilos para el encabezado */
 .header {
-    background-image: url('imagenes-contenido/encabezado/computing.png');
+    background-image: url('https://unsplash.com/es/fotos/1SAnrIxw5OY'); /* Reemplaza con la URL directa de la imagen */
     background-size: cover;
     color: #fff;
     text-align: left;
