@@ -10,7 +10,7 @@ body {
 /* Estilos para el encabezado */
 .header {
     background-image: url('https://github.com/pame-web/Pamela-Franco/raw/main/cabecera.png'); /* Reemplaza con la ruta de tu imagen */
-    background-size: auto 100%;
+    background-size: cover;
     background-position: center; /* Centra la imagen */
     color: #fff;
     text-align: left;
