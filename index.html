@@ -1,100 +1,55 @@
-/* Estilos para el cuerpo del documento */
-body {
-    font-family: Montserrat;
-    font-size: 16px; 
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portafolio de Pamela</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#biografia">Biografía</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <div class="header-content">
+            <h1>Hola, mi nombre es</h1>
+            <h2>Pamela Franco</h2>
+            <h1>Una exploradora de datos: navegando hacia la Ingeniería Analítica</h1>
+        </div>
+    </header>
 
-/* Estilos para el encabezado */
-.header {
-    background-image: url('cabecera.png'); /* Reemplaza con la ruta de tu imagen */
-    background-size: cover;
-    background-position: center; /* Centra la imagen */
-    color: #fff;
-    text-align: left;
-    padding: 8rem 0; /* Aumenta el valor del padding para agrandar el encabezado */
-}
-
-
-.header-content {
-    max-width: 800px;
-    margin-left: 30mm;
-}
-
-.header h1 {
-    margin: 0;
-    font-weight: bold;
-    font-size: 16px; /* Cambia el tamaño de letra */
-}
-
-.header h2 {
-    font-family: Raleway;
-    margin: 0;
-    font-weight: bold;
-    font-size: 30px; /* Cambia el tamaño de letra */
-}
-
-.subtitle {
-    font-style: italic;
-    font-size: 18px; /* Cambia el tamaño de letra */
-}
-/* Estilos para la barra de navegación (puedes añadir estos estilos según necesites) */
-nav {
-    background-color: #555;
-    text-align: center;
-    padding: 1rem;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end; /* Cambia aquí para alinear a la derecha */
-}
-
-nav li {
-    margin: 0;
-    padding: 0 1rem;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-}
-
-
-/* Estilos para las secciones */
-section {
-    padding: 1rem;
-    background-color: #fff;
-    margin-bottom: 2rem;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Estilos para los encabezados de sección */
-section h2 {
-    margin-top: 0;
-    color: #333;
-}
-
-/* Estilos para la lista de habilidades */
-#habilidades ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#habilidades li {
-    margin-bottom: 0.5rem;
-}
-
-/* Estilos para el pie de página */
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
-}
+    <main>
+        <section id="biografia">
+            <h2>Biografía</h2>
+            <p>¡Hola! Soy Pamela, estudiante de Ingeniería en Informática apasionada por el potencial de los datos en el ámbito bancario...</p>
+        </section>
+        <section id="experiencia">
+            <h2>Experiencia</h2>
+            <p>Con experiencia en el sector bancario fusionando datos y decisiones financieras...</p>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Power BI</li>
+                <li>Python</li>
+                <li>Excel y macros</li>
+                <li>SQL</li>
+                <li>Análisis de datos</li>
+            </ul>
+        </section>
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <p>Algunos de los proyectos en los que he trabajado incluyen...</p>
+        </section>
+    </main>
+    <footer>
+        <p>Contacto: pamela@email.com</p>
+    </footer>
+</body>
+</html>
